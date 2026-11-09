@@ -22,3 +22,4 @@ userSchema.methods.comparePassword = async function(password){
 const User = model('User', userSchema);
 
 module.exports = User
+
